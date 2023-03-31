@@ -1,5 +1,5 @@
 def add_one(number):
     return number + 1
 
-def egg():
+def get_example():
     return "Hello egg!"
