@@ -1,4 +1,7 @@
 #https://realpython.com/pytest-python-testing/
+#https://stackoverflow.com/questions/714063/importing-modules-from-parent-folder
+#https://docs.python.org/3/library/unittest.html
+#https://docs.pytest.org/en/stable/
 
 import os
 import sys
