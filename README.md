@@ -57,3 +57,5 @@ pip uninstall example-package-mdelgert
 
 [Notes Samples](https://github.com/topics/notes-app?l=python)
 
+[Using the Python starter workflow](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
+
