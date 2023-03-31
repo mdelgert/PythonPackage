@@ -54,3 +54,6 @@ Uninstalling your newly uploaded package:
 ```
 pip uninstall example-package-mdelgert
 ```
+
+[Notes Samples](https://github.com/topics/notes-app?l=python)
+
