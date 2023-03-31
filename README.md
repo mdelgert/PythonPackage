@@ -55,6 +55,11 @@ Uninstalling your newly uploaded package:
 pip uninstall example-package-mdelgert
 ```
 
+Running the unit tests:
+```
+pytest
+```
+
 [Notes Samples](https://github.com/topics/notes-app?l=python)
 
 [Using the Python starter workflow](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)

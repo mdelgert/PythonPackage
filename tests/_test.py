@@ -2,6 +2,8 @@
 #https://stackoverflow.com/questions/714063/importing-modules-from-parent-folder
 #https://docs.python.org/3/library/unittest.html
 #https://docs.pytest.org/en/stable/
+#https://realpython.com/absolute-vs-relative-python-imports/
+#https://www.tutorialspoint.com/pytest/pytest_conftest_py.htm
 
 import os
 import sys
@@ -12,6 +14,8 @@ parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir) 
 
 from src.example_package_mdelgert.example import egg
+
+#from ..src.example_package_mdelgert.example import egg
 
 def test_egg():
         print('Test the egg...')
