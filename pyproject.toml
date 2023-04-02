@@ -1,12 +1,13 @@
 [project]
-name = "example_package_mdelgert"
-version = "0.0.4"
+name = "example_mdelgert"
+version = "0.0.19"
 authors = [
   { name="Matthew Elgert", email="mdelgert@yahoo.com" },
 ]
-description = "A small example package"
+
+description = "Example package"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -16,3 +17,13 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/mdelgert/PythonPackage"
 "Bug Tracker" = "https://github.com/mdelgert/PythonPackage/issues"
+
+#https://packaging.python.org/en/latest/specifications/entry-points/
+#https://setuptools.pypa.io/en/latest/userguide/entry_point.html
+#https://amir.rachum.com/python-entry-points/
+
+#[project.scripts]
+#test1 = "example1:hello_world"
+
+#[console_scripts]
+#test = example_mdelgert:test

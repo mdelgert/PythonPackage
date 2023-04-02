@@ -64,3 +64,10 @@ pytest
 
 [Using the Python starter workflow](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
 
+#https://packaging.python.org/en/latest/specifications/entry-points/
+#https://setuptools.pypa.io/en/latest/userguide/entry_point.html
+#https://amir.rachum.com/python-entry-points/
+#https://dev.to/demianbrecht/entry-points-in-python-34i3
+#https://ianhopkinson.org.uk/2022/02/understanding-setup-py-setup-cfg-and-pyproject-toml-in-python/
+#https://github.com/IanHopkinson/mypackage
+#http://ivory.idyll.org/blog/2021-transition-to-pyproject.toml-example.html
