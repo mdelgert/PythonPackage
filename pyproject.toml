@@ -1,10 +1,9 @@
 [project]
-name = "example_mdelgert"
-version = "0.0.19"
+name = "example_package_mdelgert"
+version = "0.0.34"
 authors = [
   { name="Matthew Elgert", email="mdelgert@yahoo.com" },
 ]
-
 description = "Example package"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -22,8 +21,9 @@ classifiers = [
 #https://setuptools.pypa.io/en/latest/userguide/entry_point.html
 #https://amir.rachum.com/python-entry-points/
 
-#[project.scripts]
-#test1 = "example1:hello_world"
+[project.scripts]
+#helloworld = "example1:hello_world"
+demo = "example2:hello_demo"
 
 #[console_scripts]
 #test = example_mdelgert:test
