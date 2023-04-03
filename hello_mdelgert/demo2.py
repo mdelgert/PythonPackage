@@ -8,6 +8,7 @@ def main():
 
     # Define a 'foo' command
     name_parser = subparsers.add_parser('name', help='Description of the foo command')
+    
     name_parser.add_argument('name_arg', help='Description of the foo argument')
 
     args = parser.parse_args()
